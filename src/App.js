@@ -36,12 +36,8 @@ function App() {
           img={qouteUser.img}
         />
         <Btns>
-          <a href="#" onClick={PreQoute}>
-            <Btn btnIcon={PreBtn} />
-          </a>
-          <a href="#" onClick={NextQoute}>
-            <Btn btnIcon={NextBtn} />
-          </a>
+          <Btn btnIcon={PreBtn} name="pre" clickHandler={PreQoute} />
+          <Btn btnIcon={NextBtn} name="next" clickHandler={NextQoute} />
         </Btns>
       </Container>
     </AppStyle>

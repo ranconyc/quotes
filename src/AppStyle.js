@@ -9,10 +9,13 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 0 5vw;
   width: 100vw;
-  justify-content: center;
+  height: 100%;
   align-items: center;
 `;
 
 export const Btns = styled.div`
-  margin-top: 2.5rem;
+  margin-top: 3vh;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
 `;

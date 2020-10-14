@@ -5,8 +5,9 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20vh;
+  margin-top: 90px;
   max-width: 60vw;
+  flex: 1.5;
 `;
 
 export const QuoteCircle = styled.img`
@@ -17,10 +18,10 @@ export const QuoteCircle = styled.img`
 `;
 
 export const AutorImg = styled.img`
-  width: 9rem;
-  height: 9rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
-  border-top: 5px solid #000;
+  border-top: 7px solid #000;
   border-right: 7px solid #000;
 `;
 

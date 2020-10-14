@@ -1,8 +1,12 @@
 import React from "react";
-import { BtnStyle } from "./BtnStyle";
+import { BtnStyle, BtnLink } from "./BtnStyle";
 
-function Btn({ btnIcon }) {
-  return <BtnStyle src={btnIcon} />;
+function Btn({ btnIcon, clickHandler, name }) {
+  return (
+    <BtnLink href="#" onClick={clickHandler} className={name}>
+      <BtnStyle src={btnIcon} />
+    </BtnLink>
+  );
 }
 
 export default Btn;

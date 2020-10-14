@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
-export const BtnStyle = styled.img`
-  margin: 0 2.5rem;
+export const BtnLink = styled.a`
+  margin: 0 3rem;
 `;
+
+export const BtnStyle = styled.img``;
